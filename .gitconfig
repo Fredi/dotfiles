@@ -1,0 +1,10 @@
+[user]
+	name = "Fredi Machado"
+	email = fredisoft@gmail.com
+[core]
+	autocrlf = false
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
