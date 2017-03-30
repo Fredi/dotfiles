@@ -15,3 +15,7 @@
 	bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"
 	branch-name = !git rev-parse --abbrev-ref HEAD
 	publish = !git push -u origin $(git branch-name)
+[pull]
+        rebase = true
+[rebase]
+        autoStash = true
