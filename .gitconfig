@@ -33,4 +33,6 @@
 [mergetool "vscode"]
 	path = C:/Program Files/Microsoft VS Code/code.exe
 	cmd = "\"C:/Program Files/Microsoft VS Code/code.exe\" --wait \"$MERGED\" "
-
+[push]
+	default = simple
+	followTags = true
